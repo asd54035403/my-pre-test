@@ -1,0 +1,39 @@
+.priceInput{
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+label{
+    padding: 2px;
+    font-size: 12px;
+    color: rgb(106, 115, 119);
+}
+.inputAlert{
+    margin: 0;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: left;
+    color: orangered;
+    border-radius: 0;
+    font-size: 15px;
+}
+.alertNull{
+    margin: 0;
+    width: 100%;
+    height: 22.5px;
+    padding-bottom: 0;
+    text-align: left;
+    border-radius: 0;
+    font-size: 15px;
+}
+.hint{
+    width: 100%;
+    text-align: right;
+    
+    font-size: 12px;
+    color: rgb(106, 115, 119);
+}

@@ -1,0 +1,31 @@
+.AgeGroupPriceList{
+    margin:auto;
+    width: 650px;
+    padding: 10px;
+    border: 2px dashed rgb(130, 147, 155);
+    display: flex;
+    flex-wrap: wrap;
+}
+.priceSet{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(232, 236, 238);
+}
+.container .priceSet:last-child {
+    border-bottom: none;
+}
+.priceSetHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-weight: bold;
+}
+.removeBtn{
+    color: orangered;
+}
+.addBtn{
+    color: rgb(133, 211, 185);
+    .plus{
+        font-size: 25px;
+    }
+}
